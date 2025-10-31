@@ -1,0 +1,88 @@
+----------------------------------------
+Task: Задача 1: Деление на ноль
+Timestamp: 2025/10/24 10:10:07
+Exception Type: com.example.AllTasksInOneFile$CustomDivisionException
+Message: Деление на ноль запрещено!
+Stack Trace:
+com.example.AllTasksInOneFile$CustomDivisionException: Деление на ноль запрещено!
+	at com.example.AllTasksInOneFile.divide(AllTasksInOneFile.java:80)
+	at com.example.AllTasksInOneFile.main(AllTasksInOneFile.java:160)
+----------------------------------------
+
+----------------------------------------
+Task: Задача 2: Проверка возраста
+Timestamp: 2025/10/24 10:10:07
+Exception Type: com.example.AllTasksInOneFile$CustomAgeException
+Message: Недопустимый возраст: 150. Возраст должен быть в диапазоне от 0 до 120.
+Stack Trace:
+com.example.AllTasksInOneFile$CustomAgeException: Недопустимый возраст: 150. Возраст должен быть в диапазоне от 0 до 120.
+	at com.example.AllTasksInOneFile.validateAge(AllTasksInOneFile.java:88)
+	at com.example.AllTasksInOneFile.main(AllTasksInOneFile.java:169)
+----------------------------------------
+
+----------------------------------------
+Task: Задача 3: Файл не найден
+Timestamp: 2025/10/24 10:10:07
+Exception Type: com.example.AllTasksInOneFile$CustomFileNotFoundException
+Message: Файл не найден по пути: non_existent_file.txt
+Stack Trace:
+com.example.AllTasksInOneFile$CustomFileNotFoundException: Файл не найден по пути: non_existent_file.txt
+	at com.example.AllTasksInOneFile.readFile(AllTasksInOneFile.java:97)
+	at com.example.AllTasksInOneFile.main(AllTasksInOneFile.java:178)
+----------------------------------------
+
+----------------------------------------
+Task: Задача 4: Неверный формат числа
+Timestamp: 2025/10/24 10:10:07
+Exception Type: com.example.AllTasksInOneFile$CustomNumberFormatException
+Message: Строка 'abc' не может быть преобразована в число.
+Stack Trace:
+com.example.AllTasksInOneFile$CustomNumberFormatException: Строка 'abc' не может быть преобразована в число.
+	at com.example.AllTasksInOneFile.convertToInt(AllTasksInOneFile.java:106)
+	at com.example.AllTasksInOneFile.main(AllTasksInOneFile.java:187)
+----------------------------------------
+
+----------------------------------------
+Task: Задача 5: Пустой стек
+Timestamp: 2025/10/24 10:10:07
+Exception Type: com.example.AllTasksInOneFile$CustomEmptyStackException
+Message: Попытка извлечь элемент из пустого стека.
+Stack Trace:
+com.example.AllTasksInOneFile$CustomEmptyStackException: Попытка извлечь элемент из пустого стека.
+	at com.example.AllTasksInOneFile$CustomStack.pop(AllTasksInOneFile.java:116)
+	at com.example.AllTasksInOneFile.main(AllTasksInOneFile.java:196)
+----------------------------------------
+
+----------------------------------------
+Task: Задача 6: Ошибка ввода
+Timestamp: 2025/10/24 10:10:07
+Exception Type: com.example.AllTasksInOneFile$CustomInputMismatchException
+Message: Введенные данные не являются целым числом.
+Stack Trace:
+com.example.AllTasksInOneFile$CustomInputMismatchException: Введенные данные не являются целым числом.
+	at com.example.AllTasksInOneFile.readInteger(AllTasksInOneFile.java:127)
+	at com.example.AllTasksInOneFile.main(AllTasksInOneFile.java:205)
+----------------------------------------
+
+----------------------------------------
+Task: Задача 7: Неверный формат Email
+Timestamp: 2025/10/24 10:10:07
+Exception Type: com.example.AllTasksInOneFile$CustomEmailFormatException
+Message: Неверный формат email-адреса: invalid-email.com
+Stack Trace:
+com.example.AllTasksInOneFile$CustomEmailFormatException: Неверный формат email-адреса: invalid-email.com
+	at com.example.AllTasksInOneFile.validateEmail(AllTasksInOneFile.java:135)
+	at com.example.AllTasksInOneFile.main(AllTasksInOneFile.java:214)
+----------------------------------------
+
+----------------------------------------
+Task: Задача 8: Неподдерживаемая операция
+Timestamp: 2025/10/24 10:10:07
+Exception Type: com.example.AllTasksInOneFile$CustomUnsupportedOperationException
+Message: Операция '%' не поддерживается.
+Stack Trace:
+com.example.AllTasksInOneFile$CustomUnsupportedOperationException: Операция '%' не поддерживается.
+	at com.example.AllTasksInOneFile.calculate(AllTasksInOneFile.java:147)
+	at com.example.AllTasksInOneFile.main(AllTasksInOneFile.java:223)
+----------------------------------------
+
