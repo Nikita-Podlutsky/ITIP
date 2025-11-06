@@ -72,13 +72,13 @@ class PasswordValidator {
     public static void main(String[] args) {
         System.out.println("--- Задание 2: Проверка корректности пароля ---");
         String[] testPasswords = {
-            "ValidPass1",    // Корректный
-            "invalidpass",   // Некорректный (нет заглавной буквы и цифры)
-            "Invalid1",      // Некорректный (короткий)
-            "NoDigitHERE",   // Некорректный (нет цифры)
-            "nouppercase123",// Некорректный (нет заглавной буквы)
-            "ValidPassword1234567", // Некорректный (длинный)
-            "CorrectHorseBatteryStaple1" // Корректный
+            "ValidPass1",
+            "invalidpass",
+            "Invalid1",
+            "NoDigitHERE",
+            "nouppercase123",
+            "ValidPassword1234567",
+            "CorrectHorseBatteryStaple1"
         };
 
         for (String pass : testPasswords) {
@@ -137,13 +137,13 @@ class IpAddressValidator {
     public static void main(String[] args) {
         System.out.println("--- Задание 4: Проверка корректности IP-адреса ---");
         String[] testIps = {
-            "192.168.0.1",   // Корректный
-            "255.255.255.255", // Корректный
-            "0.0.0.0",         // Корректный
-            "256.1.1.1",       // Некорректный
-            "192.168.0.256",   // Некорректный
-            "1.2.3",           // Некорректный
-            "not.an.ip.address"// Некорректный
+            "192.168.0.1",
+            "255.255.255.255",
+            "0.0.0.0",
+            "256.1.1.1",
+            "192.168.0.256",
+            "1.2.3",
+            "not.an.ip.address"
         };
         
         for (String ip : testIps) {
